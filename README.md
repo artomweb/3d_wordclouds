@@ -24,13 +24,18 @@ pip install -r REQUIREMENTS.txt
 python generate_freq.py <URI>
 ````
   
-This will generate both '<URI>_lyrics.csv' and '<URI>.txt'
+This will generate '`<URI>`_lyrics.csv', '`<URI>`.txt'
   
-3. Run WordPile.py with blender as the URI as an argument after '--'
+3. For the program to run blender, `blender` needs to be accessible from the commandline
+
+- 
+Alternatively run WordPile.py with blender as the URI as an argument after '--'
 
 ````
 blender -b --python WordPile.py -- <URI>
 ````
+
+
   
 Adjustable parameters in 'config.txt'
 -----
