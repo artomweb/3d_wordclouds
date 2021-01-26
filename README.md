@@ -10,11 +10,17 @@ Create 3D wordclouds representing your Spotify playlists. This is just a proof o
 Usage
 -----
 
-Clone the repo to download the two files. The 'generate_freq.py' file is used to generate both a csv file of song lyrics and a text file containing the word frequencies. 'WordPile.py' should be run with blender to generate the image. Pip can be used to install the dependencies:
+Clone the repo to download the two files. The 'generate_freq.py' file is used to generate both a csv file of song lyrics and a text file containing the word frequencies. 'WordPile.py' should be run with blender to generate the image. 
+
+# Install prerequisites:
+
+Pip can be used to install the dependencies:
 
 ````
 pip install -r REQUIREMENTS.txt
 ````
+
+# Running the program:
 
 1. Edit both the 'client_id' and 'client_secret' in 'generate_req.py' to your [spotify dev](https://developer.spotify.com/dashboard/) credentials.
 
@@ -24,11 +30,9 @@ pip install -r REQUIREMENTS.txt
 python generate_freq.py <URI>
 ````
   
-This will generate '`<URI>`_lyrics.csv', '`<URI>`.txt'
-  
 3. For the program to run blender, `blender` needs to be accessible from the commandline
 
-- 
+
 Alternatively run WordPile.py with blender as the URI as an argument after '--'
 
 ````
