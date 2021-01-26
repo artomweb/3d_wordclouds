@@ -15,6 +15,7 @@ Clone the repo to download the two files. The 'generate_freq.py' file is used to
 Install prerequisites:
 ---
 Install [blender](https://www.blender.org/)
+
 Pip can be used to install the dependencies:
 
 ````
