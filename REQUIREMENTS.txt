@@ -1,0 +1,7 @@
+spotipy
+progress
+bs4
+pandas
+wordcloud
+click
+requests

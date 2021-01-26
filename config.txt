@@ -1,0 +1,10 @@
+color_pal = ["3d5a80","98c1d9","e0fbfc","ee6c4d","293241"]
+random_color = False
+num_words = 100
+mi_max = 1.5
+li_max = 5
+current_height = -0.4
+vertical_offset = 0.11
+extrusion = 0.04
+s_f = 1
+add_exclude = ["got", "know", "go", "want"]
