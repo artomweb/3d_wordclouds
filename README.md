@@ -28,7 +28,7 @@ This will generate '`<URI>`_lyrics.csv', '`<URI>`.txt'
   
 3. For the program to run blender, `blender` needs to be accessible from the commandline
 
-- 
+
 Alternatively run WordPile.py with blender as the URI as an argument after '--'
 
 ````
