@@ -14,14 +14,14 @@ Clone the repo to download the two files. The 'generate_freq.py' file is used to
 
 Install prerequisites:
 ---
-
+Install [blender](https://www.blender.org/)
 Pip can be used to install the dependencies:
 
 ````
 pip install -r REQUIREMENTS.txt
 ````
 
-Running the program:
+Running the code:
 ---
 
 1. Edit both the 'client_id' and 'client_secret' in 'generate_req.py' to your [spotify dev](https://developer.spotify.com/dashboard/) credentials.
@@ -32,13 +32,10 @@ Running the program:
 python generate_freq.py <URI>
 ````
   
-3. For the program to run blender, `blender` needs to be accessible from the commandline
-
-
-Alternatively run WordPile.py with blender as the URI as an argument after '--'
+3. For the program to run blender, `blender` needs to be accessible from the command line. Alternatively if this fails run WordPile.py with blender, with the URI as an argument after '--'
 
 ````
-blender -b --python WordPile.py -- <URI>
+<path_to_blender> -b --python WordPile.py -- <URI>
 ````
 
 
