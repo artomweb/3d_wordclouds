@@ -36,7 +36,7 @@ Adjustable parameters in 'config.txt'
 -----
 
  - 'col_pal' an array of hex values creating a color pallet
- -- These can be generated easily at [coolors.co](https://coolors.co/palettes/trending) exporting a pallet as code and copying the array
+   - These can be generated easily at [coolors.co](https://coolors.co/palettes/trending) exporting a pallet as code and copying the array
  - 'random_color' if false then the color pallet is used, if true random colors are generated
  - 'num_words' the number of words to be simulated
  - 'mi_max' the spread from the centre of the image of the largest words
