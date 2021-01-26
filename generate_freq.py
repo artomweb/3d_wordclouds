@@ -4,7 +4,7 @@ import numpy as np
 from bs4 import BeautifulSoup
 import pandas as pd
 from wordcloud import WordCloud, STOPWORDS
-import json, requests, urllib.parse, re, time, sys, click, spotipy
+import json, requests, urllib.parse, re, time, sys, click, spotipy, os
 
 def auth():
     username = 'default'
@@ -115,6 +115,12 @@ def create_database(URI):
     print("Gettng songs this may take a while...")
     generate_lyrics(URI)
 
+def run_blender(URI):
+    if click.confirm("Do you want to run the blender file now?", default=True):
+        os.system("blender -b -P WordPile.py -- " + URI)
+    return None
+    
+
 def generate_freq(URI):
     df = pd.read_csv(URI[-22:] + '_lyrics.csv')
     all_words = []
@@ -128,6 +134,7 @@ def generate_freq(URI):
         json.dump(word_freq, f)
     
     print("Saved frequencies to " + URI[-22:] + '.txt')
+    run_blender(URI)
 
 
 def look_for_lyrics(URI):
