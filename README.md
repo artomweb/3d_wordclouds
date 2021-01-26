@@ -12,7 +12,7 @@ Usage
 
 Clone the repo to download the two files. The 'generate_freq.py' file is used to generate both a csv file of song lyrics and a text file containing the word frequencies. 'WordPile.py' should be run with blender to generate the image. 
 
-# Install prerequisites:
+### Install prerequisites:
 
 Pip can be used to install the dependencies:
 
@@ -20,7 +20,7 @@ Pip can be used to install the dependencies:
 pip install -r REQUIREMENTS.txt
 ````
 
-# Running the program:
+### Running the program:
 
 1. Edit both the 'client_id' and 'client_secret' in 'generate_req.py' to your [spotify dev](https://developer.spotify.com/dashboard/) credentials.
 
