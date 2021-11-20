@@ -1,6 +1,6 @@
 ﻿# 3d_wordclouds
  
-# NO LONGER WORKS WITH NEW VERSIONS OF PYTHON :((
+# NO LONGER WORKS WITH NEW VERSIONS OF PYTHON :(( latest is 2.83
 
 Description
 -----
